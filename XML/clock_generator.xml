@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ipxact:component xsi:schemaLocation="http://www.accellera.org/XMLSchema/IPXACT/1685-2014 http://www.accellera.org/XMLSchema/IPXACT/1685-2014/index.xsd" xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ipxact="http://www.accellera.org/XMLSchema/IPXACT/1685-2014" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ipxact:vendor>iiitd.ac.in</ipxact:vendor>
+    <ipxact:library>addv2026</ipxact:library>
+    <ipxact:name>clock_generator</ipxact:name>
+    <ipxact:version>1.0</ipxact:version>
+    <ipxact:model>
+        <ipxact:views>
+            <ipxact:view>
+                <ipxact:name>Verilog</ipxact:name>
+            </ipxact:view>
+        </ipxact:views>
+        <ipxact:ports>
+            <ipxact:port>
+                <ipxact:name>clk</ipxact:name>
+                <ipxact:wire>
+                    <ipxact:direction>out</ipxact:direction>
+                </ipxact:wire>
+            </ipxact:port>
+        </ipxact:ports>
+    </ipxact:model>
+    <ipxact:fileSets>
+        <ipxact:fileSet>
+            <ipxact:name>fs-verilogwrapper</ipxact:name>
+            <ipxact:file>
+                <ipxact:name>/home/kabeer/ADDV/A2/clock_generator.v</ipxact:name>
+                <ipxact:fileType>systemVerilogSource</ipxact:fileType>
+                <ipxact:logicalName>clock_generator_lib</ipxact:logicalName>
+            </ipxact:file>
+        </ipxact:fileSet>
+    </ipxact:fileSets>
+    <ipxact:description>This file has been generated with the utility from  EDAUtils LLP</ipxact:description>
+    <ipxact:parameters>
+        <ipxact:parameter resolve="user" parameterId="HALF_PERIOD" type="int">
+            <ipxact:name>HALF_PERIOD</ipxact:name>
+            <ipxact:value>5</ipxact:value>
+        </ipxact:parameter>
+    </ipxact:parameters>
+</ipxact:component>
